@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  padding: 5rem 0;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.page {
+
+}
+
+.page__title {
+    font-size: 40px;
+    color: #111;
+    margin: 0px 0px 20px 0px;
+    padding: 0px 0px 10px 0px;
+    border-bottom: 1px solid #eee;
+}
+
+.page__progects {
+
+}
+
+.page__item {
+    font-size: 18px;
+    margin: 0px 0px 10px 0px;
+}
+
+.page__link{
+    color: #00adb5;
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+}
+
+@media (min-width: 992px){
+    .page__link:hover{
+        color: skyblue;
+    }
+}
+
+.page__item:last-child{
+  margin: 0px 0px 0px 0px;
+}
