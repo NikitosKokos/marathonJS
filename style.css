@@ -35,9 +35,12 @@ body {
 .page__item {
     font-size: 18px;
     margin: 0px 0px 10px 0px;
+    color: #333;
+    line-height: 1.4;
 }
 
 .page__link{
+    font-weight: 500;
     color: #00adb5;
     text-decoration: none;
     transition: all .3s ease-in-out;
